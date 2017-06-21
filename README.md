@@ -1,8 +1,9 @@
-# Arc Theme
+# Arc Theme (Japanese version)
 
 Arc is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
+Improved a little for Japanese text by Seong.
 
-## Arc is available in three variants 
+## Arc is available in three variants
 
 ##### Arc
 
@@ -18,32 +19,9 @@ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell w
 
 ## Installation
 
-### Packages
-
-|Distro|Package Name/Link|
-|:----:|:----:|
-| Arch Linux | `arc-gtk-theme`, [`gtk-theme-arc-git`](https://aur.archlinux.org/packages/gtk-theme-arc-git) (AUR) |
-| Debian 8 | [OBS Repo][obs-repo] |
-| Debian Testing/Unstable | `arc-theme` |
-| Fedora 21 - 23 | [OBS Repo][obs-repo] |
-| Fedora 24 -25 | `arc-theme` |
-| Gentoo/Funtoo | `x11-themes/arc-theme` from the [Scriptkitties Overlay][sk-overlay] |
-| openSUSE | [OBS Repo][obs-repo] |
-| Solus | `arc-gtk-theme` |
-| Ubuntu 15.04 - 16.04 | [OBS Repo][obs-repo] |
-| Ubuntu 16.10 | `arc-theme` |
-
-**elementary OS Note:** elementary OS Freya users can install the package for Ubuntu 15.04, Loki users can install the package for Ubuntu 16.04.
-
-**AUR Note:** If you're having trouble with the AUR packages please email the package maintainer at zach@zach-adams.com before creating an issue.
-
-A non-transparent version of the theme is available here: [Arc Solid OBS repo](http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme-solid)
-
---
-
 ### Manual Installation
 
-To build the theme the follwing packages are required 
+To build the theme the follwing packages are required
 * `autoconf`
 * `automake`
 * `pkg-config` or `pkgconfig` for Fedora
@@ -68,7 +46,7 @@ Install the theme with the following commands
 
 Clone the git repository with
 
-    git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
+    git clone https://github.com/sei40kr/arc-theme-ja.git --depth 1 && cd arc-theme
 
 #### 2. Build and install the theme
 
